@@ -48,10 +48,6 @@ def obtener_datos_red():
         {"id": "Paola Arreola Nieto", "faccion": "Estructura Metropolitana", "cargo": "Operadora / Exdiputada", "color": "#8b0000", "size": 60, "foto": f"{base_url}paola_arreola.jpg"},
         {"id": "Montserrat Balcorta", "faccion": "Izquierda Ideológica", "cargo": "Académica / DH", "color": "#5bc0de", "size": 60, "foto": f"{base_url}montserrat_balcorta.jpg"},
         {"id": "Roxana Herrera", "faccion": "Militancia de Base", "cargo": "Liderazgo Territorial", "color": "#8b0000", "size": 60, "foto": f"{base_url}roxana_herrera.jpg"},
-
-        # Instituciones Clave
-        {"id": "Banobras SLP", "faccion": "Institución", "cargo": "Banca de Desarrollo", "color": "#95a5a6", "size": 40, "foto": None},
-        {"id": "Delegación Bienestar", "faccion": "Institución", "cargo": "Programas Sociales", "color": "#95a5a6", "size": 40, "foto": None}
     ]
 
     # 2. RELACIONES MULTIDIMENSIONALES (La Telaraña)
