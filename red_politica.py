@@ -36,6 +36,13 @@ def obtener_datos_red():
         {"id": "Banobras SLP", "faccion": "Institución", "cargo": "Banca de Desarrollo", "color": "#6c757d", "size": 18},
         {"id": "Congreso SLP", "faccion": "Institución", "cargo": "Poder Legislativo Estatal", "color": "#6c757d", "size": 18},
         {"id": "Delegación Bienestar", "faccion": "Institución", "cargo": "Programas Sociales", "color": "#6c757d", "size": 18}
+                # Vieja Guardia y Legisladores
+        {"id": "Juan Ramiro Robledo", "faccion": "Vieja Guardia", "cargo": "Legislador Federal Histórico", "color": "#d9534f", "size": 28},
+        {"id": "Kevin Ángelo Aguilar", "faccion": "Grupo Gabino", "cargo": "Diputado Federal (Huasteca)", "color": "#0275d8", "size": 22},
+        {"id": "Nancy Jeanine García", "faccion": "Ala Pura / Dirigencia", "cargo": "Diputada Local", "color": "#8b0000", "size": 20},
+        
+        # Alcaldes
+        {"id": "Leticia Vázquez", "faccion": "Bases Municipales", "cargo": "Alcaldesa de Cerritos", "color": "#8b0000", "size": 22}
     ]
 
     # 2. Definición de Aristas (Conexiones)
@@ -64,6 +71,16 @@ def obtener_datos_red():
         {"origen": "Carlos Arreola", "destino": "Gabino Morales", "tipo": "Competencia Interna por Gubernatura 2027", "color": "#343a40", "peso": 2},
         {"origen": "Leonel Serrato", "destino": "Rita Ozalia Rodríguez", "tipo": "Fricción Mediática / Crítica Interna", "color": "#343a40", "peso": 2},
         {"origen": "Mario Godoy", "destino": "Rita Ozalia Rodríguez", "tipo": "Distanciamiento por Cuestionamientos Locales", "color": "#343a40", "peso": 1}
+        # Vínculos Tercera Ronda
+        {"origen": "Juan Ramiro Robledo", "destino": "Leonel Serrato", "tipo": "Coincidencia Histórica / Izquierda Tradicional", "color": "#1c7ed6", "peso": 2},
+        {"origen": "Gabino Morales", "destino": "Kevin Ángelo Aguilar", "tipo": "Operación Territorial (Huasteca)", "color": "#1c7ed6", "peso": 3},
+        {"origen": "Rita Ozalia Rodríguez", "destino": "Leticia Vázquez", "tipo": "Respaldo Partidista / Lealtad Municipal", "color": "#1c7ed6", "peso": 2},
+        {"origen": "Rita Ozalia Rodríguez", "destino": "Nancy Jeanine García", "tipo": "Impulso Dirigencia / Bloque Legislativo", "color": "#1c7ed6", "peso": 2},
+        
+        # Fricciones Tercera Ronda
+        {"origen": "Kevin Ángelo Aguilar", "destino": "Rita Ozalia Rodríguez", "tipo": "Disputa por Comités Municipales (Huasteca)", "color": "#343a40", "peso": 2},
+        {"origen": "Juan Ramiro Robledo", "destino": "Carlos Arreola", "tipo": "Tensión Generacional (Vieja Guardia vs Jóvenes)", "color": "#343a40", "peso": 1},
+        {"origen": "Cuauhtli Badillo", "destino": "Nancy Jeanine García", "tipo": "Competencia por Liderazgo de Bancada", "color": "#343a40", "peso": 1}
     ]
 
     return nodos, relaciones
