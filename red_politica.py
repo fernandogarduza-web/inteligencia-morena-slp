@@ -81,6 +81,55 @@ def obtener_datos_red():
         {"origen": "Kevin Ángelo Aguilar", "destino": "Rita Ozalia Rodríguez", "tipo": "Disputa por Comités Municipales (Huasteca)", "color": "#343a40", "peso": 2},
         {"origen": "Juan Ramiro Robledo", "destino": "Carlos Arreola", "tipo": "Tensión Generacional (Vieja Guardia vs Jóvenes)", "color": "#343a40", "peso": 1},
         {"origen": "Cuauhtli Badillo", "destino": "Nancy Jeanine García", "tipo": "Competencia por Liderazgo de Bancada", "color": "#343a40", "peso": 1}
+        # Actores Financieros, Activistas y Perfiles Clave
+        {
+            "id": "Gerardo Sánchez Zumaya",
+            "faccion": "Factor Financiero / Externo",
+            "cargo": "Empresario / Aspirante Gubernatura",
+            "color": "#d9534f",
+            "size": 32,
+            "foto": "https://raw.githubusercontent.com/fernandogarduza-web/inteligencia-morena-slp/main/perfiles_morena/gerardo_sanchez.jpg"
+        },
+        {
+            "id": "José Antonio Lorca",
+            "faccion": "Sector Empresarial Morena",
+            "cargo": "Exdiputado Local / Operador",
+            "color": "#8b0000",
+            "size": 24,
+            "foto": "https://raw.githubusercontent.com/fernandogarduza-web/inteligencia-morena-slp/main/perfiles_morena/antonio_lorca.jpg"
+        },
+        {
+            "id": "Ana Dora Cabrera",
+            "faccion": "Activismo / Prensa Independiente",
+            "cargo": "Periodista / Activista",
+            "color": "#5bc0de",
+            "size": 22,
+            "foto": "https://raw.githubusercontent.com/fernandogarduza-web/inteligencia-morena-slp/main/perfiles_morena/ana_dora.jpg"
+        },
+        {
+            "id": "Paola Arreola Nieto",
+            "faccion": "Estructura Metropolitana",
+            "cargo": "Exdiputada Local",
+            "color": "#8b0000",
+            "size": 22,
+            "foto": "https://raw.githubusercontent.com/fernandogarduza-web/inteligencia-morena-slp/main/perfiles_morena/paola_arreola.jpg"
+        },
+        {
+            "id": "Montserrat Balcorta",
+            "faccion": "Izquierda Ideológica / Base",
+            "cargo": "Activista / Académica",
+            "color": "#5bc0de",
+            "size": 20,
+            "foto": "https://raw.githubusercontent.com/fernandogarduza-web/inteligencia-morena-slp/main/perfiles_morena/montserrat_balcorta.jpg"
+        },
+        {
+            "id": "Roxana Herrera",
+            "faccion": "Militancia de Base",
+            "cargo": "Liderazgo Social / Territorial",
+            "color": "#8b0000",
+            "size": 20,
+            "foto": "https://raw.githubusercontent.com/fernandogarduza-web/inteligencia-morena-slp/main/perfiles_morena/roxana_herrera.jpg"
+        },
     ]
 
     return nodos, relaciones
